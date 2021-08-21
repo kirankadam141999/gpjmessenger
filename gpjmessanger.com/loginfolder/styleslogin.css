@@ -1,0 +1,203 @@
+@import "http://fonts.googleapis.com/css?family=loto:100";
+*{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+     
+}
+
+html{
+    font-size: 1vw;
+    font-family: "Loto",Arial,sans-serif;
+}
+/* this is the code for color transiction */
+body{
+    width: 90vw;
+    height: 55vw;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400vw 400vw;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    
+}
+
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* this the code for background effect on login window */
+#loginbackground{
+    margin-left: -7vw;
+    margin-top: 7vw;
+    padding: -10vw;
+    width: 25vw; 
+    height: 33vw;
+    background: linear-gradient(-49deg, rgb(240, 165, 27), rgb(245, 32, 181), rgb(56, 181, 197), rgb(22, 50, 209));
+
+    box-shadow: 1vw 1vw 1vw rgb(53, 51, 51);
+    align-items: center;
+    border: 0.20vw solid #fff;
+     position: absolute;
+    top: 11vw;
+    left: 45vw;
+
+    
+}
+  /*this is code of login text  */
+#logintext{ 
+    font-size: 4vw; 
+    margin-left: 39vw;
+    margin-top: 1vw;
+    text-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+
+ 
+    
+}
+ /* this is code of msbte logo image */
+#logomsbte{
+    width: 8.50%;
+ margin-left: 4%;
+ margin-top: 3%;
+background-color: rgb(247, 239, 239);
+border-radius: 50%;
+box-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+  
+}
+/* code of gpj logo  */
+#logogpj{
+width: 8%;
+margin-left: 2%;
+margin-top: 3%;
+background-color: rgb(247, 239, 239);
+border-radius: 10%;
+box-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+   
+}
+/* code of Government Polytechnic Jalgaon text */
+#gpjtext{
+   font-size: 4vw; 
+   margin-left: 25vw;
+   margin-top:  -8vw;
+   resize: both;
+   text-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* code of Computer Department Messenger text */
+#cotext{
+    font-size: 3vw; 
+    margin-left: 25vw;
+    margin-top: 1vw;
+    resize: both;
+    text-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+/* code of UserName text */
+
+#usernametext{
+    font-size: 1.50vw;
+    margin-left: 2.20vw;
+    margin-top:1vw ;
+    text-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+ 
+
+}
+/* code of UserName value */
+
+#usernamevalue{
+    font-size: 1.20vw;
+    margin-left: 2.20vw;
+    margin-top: 1vw;
+     width: 15vw;
+    height: 2.50vw;
+}
+/* code of password text */
+
+#passwordtext{
+    font-size: 1.50vw;
+    margin-left: 2.20vw;
+    margin-top: 3vw ;
+    text-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+ 
+
+}
+/* code of password value*/
+
+#passwordvalue{
+    font-size: 1.20vw;
+    margin-left: 2.20vw;
+    margin-top: 1vw ;
+    width: 15vw;
+    height: 2.50vw;
+
+}
+/* code of login button */
+
+#loginbutton{
+    font-size: 1.20vw;
+    font-family: 'Times New Roman', Times, serif;
+     width: 6vw;
+     height: 2.50vw;
+     margin-left: 5vw;
+    margin-top: 2.80vw ;
+    box-shadow: 0.50vw 0.50vw 0.50vw #000000;
+ 
+}
+/* code for signinbutton */
+#signinbutton{
+    font-size: 1.20vw;
+    font-family: 'Times New Roman', Times, serif;
+     width: 6vw;
+     height: 2.50vw;
+     margin-left: 2vw;
+    box-shadow: 0.50vw 0.50vw 0.50vw #000000;
+  
+}
+/* code of Human image  */
+
+#humanlogo{
+    width: 8vw;
+    margin-left: 15vw;
+    margin-top: -5vw;
+    border-radius: 1vw;
+ 
+}
+/* code of Chack massage box  */
+
+#showpasswordmsg{
+    width: 10vw;
+    margin-left: 18.50vw;
+    margin-top: -2.15vw;
+    border-radius: 1vw;
+    color:black ;
+    font-size: 1.20vw;
+}
+/* code of chackbox */
+
+#chackboxshow{
+    width: 1vw;
+    height: 1vw;
+ margin-top: 1vw;
+resize: none;
+
+}
+#forgpass{
+    font-size: 1.20vw;
+    margin-left: 7vw;
+    padding-top: 2vw;
+}

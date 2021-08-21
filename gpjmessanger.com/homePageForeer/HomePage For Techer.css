@@ -1,0 +1,370 @@
+body{
+    
+    background: linear-gradient(to right, hsl(226, 100%, 50%) 0%, rgb(246, 247, 248) 100%);  
+   
+} 
+
+body::-webkit-scrollbar{
+    display: none;
+}
+#gpjlogo{
+        margin-top: 1vw;
+    width: 5vw;
+    height: 5vw;
+    margin-left: 5vw;
+    border-radius: 1vw;
+    box-shadow: 0.50vw 0.50vw 0.50vw rgb(8, 7, 7);
+    background-color: rgb(247, 239, 239);
+
+}
+
+#nameofmassenger{
+    font-size: 3vw;
+    margin-left: 12vw;
+    margin-top: -4vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 0.40vw 0.50vw 0.40vw #0c0b0b;
+    font-style: italic;
+  
+}
+#backgroundofchat{
+    margin-left: 3vw;
+    margin-top: -4vw;
+    padding: -10vw;
+    width: 50vw; 
+    height: 48vw;
+    background-color: rgb(12, 12, 241, 0.973);
+    box-shadow: 0.50vw 0.50vw 0.50vw rgb(8, 7, 7);
+    border-radius: 1vw;
+    align-items: center;
+    border: 0.20vw solid rgb(10, 44, 236);
+     position: absolute;
+    top: 11vw;
+    left: 45vw;
+ 
+}  
+#contantpeople{
+    border-radius: 1vw;
+    margin-left: -0.20vw;
+    margin-top: -42.70vw;
+    padding: -10vw;
+    width: 20.50vw; 
+    height: 35.20vw;
+    background-color: rgba(12, 12, 241, 0.973);
+     overflow-y: scroll;
+      
+}
+
+.pophidescroll::-webkit-scrollbar{
+    display: none;
+}
+
+
+.maillogodiv{                  
+    width: 19vw;
+    height: 5vw;
+    margin-top: 1vw;
+       background-color: rgb(25, 1, 161);
+     float: left;
+     border-radius: 2vw;
+}
+.femaillogo{
+    width: 19vw;
+    height: 5vw;
+    margin-top: 1vw;
+    background-color: rgb(25, 1, 161);
+    float: left;
+    border-radius: 2vw;   
+}
+#humancontantlogo{
+    width: 5vw;
+    height: 5vw;
+}
+#femaillogoimg{
+    margin-left: 0.30vw;
+  width: 4vw;
+  height: 5vw;
+
+}
+
+  
+#searchbar{
+    border-radius: 1vw;
+    margin-left: 19.80vw;
+    margin-top: -5.60vw;
+    padding: -10vw;
+    width: 30.40vw; 
+    height: 5.50vw;
+    background-color: rgb(3, 3, 207);
+
+}
+#pdfpost{
+    margin-top: -3vw;
+    margin-left: 5vw;
+    width: 39vw;
+    height: 45vw;
+    box-shadow: 0.50vw 0.50vw 0.50vw rgb(53, 51, 51);
+
+}
+
+#infoofpost{
+    margin-top: -11vw;
+    margin-left: 5vw;
+    margin-bottom: 3vw;
+    width: 39vw;
+    height: 10vw;
+    background: linear-gradient(-49deg, rgb(26, 1, 252), rgb(248, 248, 250));
+    box-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+    overflow: auto;
+    scroll-margin: 0.20vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-right: 1vw;
+     position: absolute;  
+
+
+ }
+ #info_of_dateuser{
+    width: 30vw;
+    
+    margin-top: 7vw;
+    margin-left: 46.50vw;
+    padding-bottom: 1vw;
+    background-color:  rgb(11, 19, 94);
+    box-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+
+    border-radius: 0.50vw;
+    position: relative;
+    
+    animation: change1 7s ease-in infinite; 
+    word-wrap: break-word;
+    overflow-y: auto;
+     visibility: hidden; 
+    
+}
+
+
+    @keyframes change1{
+        0%{
+            right: 0%;
+        }
+        30%{
+            right: 0%;
+        }
+        80%{
+            right: 40%;
+        }
+    }
+#dateofpost{
+    margin-top: 1.60vw;
+    padding-left: 1.20vw;
+    font-size: 1.30vw;
+    font-style: italic;
+    color: rgb(233, 234, 241);
+}
+#valuefrombata{
+    margin-top: -2.50vw;
+    padding-left: 14vw;
+    font-size: 1.30vw;
+    font-style: italic;
+    color: rgb(233, 234, 241);
+}
+#valueofpop{
+    margin-top: -2.50vw;
+    padding-left: 8vw;
+    font-size: 1.30vw;
+    font-style: italic;
+    color: rgb(233, 234, 241);
+}
+ .scrollhidepost::-webkit-scrollbar{
+    display: none;
+}
+
+ #postditel{
+    margin-top: 0vw;
+    font-size: 3vw;
+    word-wrap: break-word;
+       
+ }
+#botuamtextfild{
+    border-radius: 1vw;
+    margin-left: -0.20vw;
+    margin-top: 0vw;
+    padding: -10vw;
+    width: 50.50vw; 
+    height: 7.20vw;
+    background-color: rgb(27, 27, 146); 
+    border: 0.10vw solid rgb(14, 8, 66);
+    position: relative;
+
+}
+#chatmasg{
+     margin-left: 20vw;
+    margin-top: 0vw;
+    padding: -10vw;
+    width: 30.50vw; 
+    height: 35.50vw;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    scroll-padding-bottom: 5vw;
+    position: relative;
+ 
+}
+
+#headsearch{
+    border-radius: 1vw;
+    margin-left: -0.20vw;
+    margin-top: -1.70vw;
+    padding: -10vw;
+    width: 20vw; 
+    height: 5.50vw;
+    background-color: rgb(31, 31, 146);
+ 
+}
+#msgtextarea{
+    margin-left: 20vw;
+    margin-top: -0.90vw;
+    font-size: 1.20vw;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+}
+.hidescroll_massage::-webkit-scrollbar{
+    display: none;
+}
+
+#peoplesearch{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+#buttonsearch{
+    margin-top: 1vw;
+    margin-left: 0.50vw;
+    width: 4vw;
+    height: 1.60vw;
+}
+#sendbutton{
+    margin-top: -4.50vw;
+    margin-left: 45.50vw;
+    width: 3.50vw;
+    height: 4.45vw;
+    border-radius: 1vw;
+}
+#gpjmessanger{
+    font-size: 2vw; 
+     padding: 1.50vw;
+     color: blanchedalmond;
+     text-align: center;
+  }
+  #nameofpersion{
+    font-size: 1.50vw;
+    margin-left: 5vw;
+    margin-top: -3vw;
+    color: whitesmoke;
+  }
+  #slidenote{
+    width: 35vw;
+    height: 5.50vw;
+     background-color:  rgb(14, 36, 233);
+     box-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+
+    float: right;
+    border-radius: 2vw;
+     position: relative;
+    
+     animation: change 5s ease-in-out infinite; 
+    overflow-wrap: break-word;
+    overflow-y: auto;
+    visibility: hidden;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+
+}
+.hidescroll_note::-webkit-scrollbar{
+    display: none;
+}
+
+    @keyframes change{
+        0%{
+            right: 0%;
+        }
+        30%{
+            right: 10%;
+        }
+        80%{
+            right: 20%;
+        }
+    }
+    .sidenav{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    .sidenav a{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #3452fa;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav .closebtn{
+        position: absolute;
+        top: 2vw;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    @media screen and (max-height: 450px){
+        .sidenav{padding-top: 15px;}
+        .sidenav a{font-size: 15px;}
+    }
+    .bas{
+        margin-top: 2vw;
+    }
+#notetext{
+        padding-top: 1vw;
+        padding-left: 2vw;
+        padding-right: 1vw;
+        padding-bottom: 1vw;
+        font-size: 2vw;
+        color: whitesmoke;
+      }
+   #backofmenu{
+       width: 2.95vw;
+       height: 4.20vw;
+       background-color: rgb(238, 239, 245);
+       border-radius: 2vw;
+       box-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+
+   }
+   #deletbutton{
+    margin-top: 0.50vw;
+
+    margin-left: 6vw;
+    width:4vw;
+    height: 4.50vw;
+    border-radius: 1vw;
+    
+    visibility: hidden;
+    
+   }  
+   #nameofpersion1{
+    font-size: 1.80vw;
+    margin-left: 6vw;
+    margin-top: 2vw;
+    color: whitesmoke;
+  }  
+  

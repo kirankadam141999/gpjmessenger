@@ -1,0 +1,254 @@
+body{
+    width: 90vw;
+    height: 50vw;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400vw 400vw;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#logomsbte{
+    width: 8.50%;
+ margin-left: 4%;
+ margin-top: 3%;
+background-color: rgb(247, 239, 239);
+border-radius: 50%;
+box-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+  
+}
+/* code of gpj logo  */
+#logogpj{
+width: 8%;
+margin-left: 2%;
+margin-top: 3%;
+background-color: rgb(247, 239, 239);
+border-radius: 10%;
+box-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+   
+}
+#gpjtext{
+    font-size: 4vw; 
+    margin-left: 25vw;
+    margin-top:  -8vw;
+    resize: both;
+   
+    text-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+ }
+ #cotext{
+    font-size: 3.40vw; 
+    margin-left: 25vw;
+    margin-top: -3vw;
+    resize: both;
+    text-shadow: 0.50vw 0.50vw 0.50vw #0c0b0b;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+ #sign-in-page{
+    margin-top: -2vw;
+    margin-left: 25vw;
+    width: 50vw;
+    height: 75vw;
+    background-color: rgb(40, 15, 180);
+    border-radius: 1vw;
+    
+}
+#logintext{ 
+    font-size: 3vw; 
+    margin-left: 20.90vw;
+    padding-top: 9vw;
+    text-shadow: 0.50vw 0.50vw 0.50vw #000000;
+
+}
+#humanlogo{
+    width: 10vw;
+    margin-left: 20vw;
+    margin-top: -18vw;
+    border-radius: 1vw;
+
+}
+#username{
+    width: 20vw;
+}
+#firstname{
+    font-size: 2vw;
+    margin-top: -2vw;
+    margin-left: 5vw;
+}
+#First_Name{
+    font-size: 1.20vw;
+    margin-top: -3vw;
+    margin-left: 19vw;
+
+}
+#midelname{
+    font-size: 2vw;
+    margin-top: 0vw;
+    margin-left: 5vw;
+}
+#Midel_name{
+    font-size: 1.20vw;
+    margin-top: -3vw;
+    margin-left: 19vw;
+}
+#lastname{
+    font-size: 2vw;
+    margin-top: 0vw;
+    margin-left: 5vw;
+}
+#Last_Name{
+    font-size: 1.20vw;
+    margin-top: -3.50vw;
+    margin-left: 19vw;
+}
+#contactnumber{
+    font-size: 2vw;
+    margin-top: 0vw;
+    margin-left: 5vw;
+}
+#contac-tnumber{
+    width: 7vw;
+    font-size: 1.20vw;
+    margin-top: -4.50vw;
+    margin-left: 23vw;
+}
+#email{
+    font-size: 2vw;
+    margin-top: -1vw;
+    margin-left: 5vw;
+}
+#Emailid{
+    width: 25vw;
+    font-size: 1.20vw;
+    margin-top: -5vw;
+    margin-left: 17vw;
+}
+#UserName{
+    
+    font-size: 2vw;
+    margin-top: -1vw;
+    margin-left: 5vw;
+}
+#User_Name{
+   
+    font-size: 1.20vw;
+    margin-top: -5vw;
+    margin-left: 23vw;
+}
+#Password{
+    
+    font-size: 2vw;
+    margin-top: 0vw;
+    margin-left: 5vw;
+}
+#Pass_World{
+   
+    font-size: 1.20vw;
+    margin-top: -5vw;
+    margin-left: 23vw;
+}
+#Passwordre{
+    
+    font-size: 2vw;
+    margin-top: -3vw;
+    margin-left: 5vw;
+}
+#Pass_WorldRe{
+   
+    font-size: 1.20vw;
+    margin-top: -5vw;
+    margin-left: 25vw;
+}
+
+
+
+
+#addrassuser{
+    font-size: 2vw;
+    margin-top: -1vw;
+    margin-left: 5vw;
+}
+#Addrass{
+    width: 23vw;
+    height: 5vw;
+    font-size: 1.20vw;
+    margin-top: -5.50vw;
+    margin-left: 15vw;
+}
+#Chack{
+    font-size: 2vw;
+    margin-top: 1vw;
+    margin-left: 10vw;
+    
+}
+#Signinbutton{
+    font-size: 2vw;
+    margin-left: 15vw;
+}
+#showpasswordmsg{
+    font-size: 1.50vw;
+    margin-left: 40.80vw;
+    margin-top: -5vw;
+}
+#chackboxshow{
+    width: 1vw;
+    height: 1vw;
+ margin-top: -4.50vw;
+ margin-left: 39vw;
+resize: none;
+
+}
+#hint{
+    margin-top: 0vw;
+    font-size: 2vw;
+    margin-left: 5vw;
+}
+#texthient{
+    font-size: 1.30vw;
+    margin-left: 29vw;
+    margin-top: -5.30vw;
+}
+#mail{
+    margin-left: 20vw;
+    margin-top: -3.70VW;
+    width: 1.30VW;
+    height: 1.30VW;
+}
+#mailText{
+    margin-left: 15.50vw;
+    margin-top: -4.40VW;
+    font-size: 2vw;
+}
+#femail{
+    margin-left: 29.50vw;
+    margin-top: -3.70VW;
+    width: 1.30VW;
+    height: 1.30VW;
+}
+#femailText{
+    margin-left: 23.50vw;
+    margin-top: -4.40VW;
+    font-size: 2vw;
+}
+#genderlebel{
+    font-size: 2vw;
+    margin-top: 0vw;
+    margin-left: 5vw;
+}
